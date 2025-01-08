@@ -1,0 +1,14 @@
+image:
+  repository: mkhnoori1/complete-devops-project
+  tag: latest
+  pullPolicy: IfNotPrsent
+service:
+  type: ClusterIP
+  port: 8080
+ingress:
+  enabled: false
+serviceAccount:
+  enabled: false
+autoscaling:
+  enabled: false
+
